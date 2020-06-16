@@ -1,0 +1,138 @@
+.example1 {
+width: 96px;
+height: 65px;
+}
+.example1:hover{
+transform: scale(1.2,1.2); /*画像の拡大*/
+cursor: pointer; /*カーソルをポインターにする*/
+}
+
+.relative1 {
+    position: relative;
+}
+.absolute1 {
+ position: absolute;
+top: -100px;
+left: 10px;
+opacity: 0.5;
+}
+
+
+
+
+/************************************
+** ブロック
+************************************/
+.btn-square {
+  display: inline-block;
+  margin: 0.5em 0;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #777;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 1px #627295;
+  border-radius: 3px;
+}
+.btn-square:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+
+.btn-square-login {
+  display: inline-block;
+  margin: 0.5em 0;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+float: right;
+}
+.btn-square-login:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+
+/************************************
+** Twitterボックス
+************************************/
+.p-twitter-box{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+  /*  margin:2rem auto;*/
+margin:10px;
+    max-width:500px;
+    width:100%;
+}
+.p-twitter-box .p-twitter-title{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 2em 0;
+    font-size: 12px;
+}
+.p-twitter-box .twitter-tweet{
+    margin:0 !important;
+}
+.p-twitter-box p{
+    display:none;
+}
+
+/* ブルー */
+.p-twitter-box .p-twitter-blue{
+      background: #1da1f2;
+}
+
+
+
+
+
+
+
+
+/************************************
+** 検索ボックス
+************************************/
+
+.search_container{
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid #999;
+  display: block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  height: 2.3em;
+  width: 80%;
+margin:  0 auto; 
+  overflow: hidden;
+}
+.search_container input[type="text"]{
+  border: none;
+  height: 2.0em;
+}
+.search_container input[type="text"]:focus {
+  outline: 0;
+}
+.search_container input[type="submit"]{
+  cursor: pointer;
+  font-family: FontAwesome;
+  border: none;
+  background: #3879D9;
+  color: #fff;
+  position: absolute;
+  width: 3.5em;
+  height: 3.0em;
+  right:0px;
+  top: -3px;
+  outline : none;
+}
+
+
+
+
